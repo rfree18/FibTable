@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028D1250E9B5F324B5262F74 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F554FBF1C62B9628094DDE70 /* libPods.a */; };
 		FA25558D1C974C6C0079E59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25558C1C974C6C0079E59D /* main.m */; };
 		FA2555901C974C6C0079E59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA25558F1C974C6C0079E59D /* AppDelegate.m */; };
-		FA2555931C974C6C0079E59D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2555921C974C6C0079E59D /* ViewController.m */; };
 		FA2555961C974C6C0079E59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2555941C974C6C0079E59D /* Main.storyboard */; };
 		FA2555981C974C6C0079E59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2555971C974C6C0079E59D /* Assets.xcassets */; };
 		FA25559B1C974C6C0079E59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2555991C974C6C0079E59D /* LaunchScreen.storyboard */; };
+		FA2555A71C974E400079E59D /* FibGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2555A61C974E400079E59D /* FibGenerator.m */; };
+		FA2555AA1C97664A0079E59D /* FibTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2555A91C97664A0079E59D /* FibTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02991DD3D1AC6DFB15D2E60C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B9463E3B9C2A0A16AFCA6C49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F554FBF1C62B9628094DDE70 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2555881C974C6C0079E59D /* FibTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA25558C1C974C6C0079E59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA25558E1C974C6C0079E59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FA25558F1C974C6C0079E59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FA2555911C974C6C0079E59D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FA2555921C974C6C0079E59D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA2555951C974C6C0079E59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA2555971C974C6C0079E59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA25559A1C974C6C0079E59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA25559C1C974C6C0079E59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2555A51C974E400079E59D /* FibGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibGenerator.h; sourceTree = "<group>"; };
+		FA2555A61C974E400079E59D /* FibGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibGenerator.m; sourceTree = "<group>"; };
+		FA2555A81C97664A0079E59D /* FibTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FibTableViewController.h; sourceTree = "<group>"; };
+		FA2555A91C97664A0079E59D /* FibTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028D1250E9B5F324B5262F74 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92124B1C4CE72719D0A2085A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02991DD3D1AC6DFB15D2E60C /* Pods.debug.xcconfig */,
+				B9463E3B9C2A0A16AFCA6C49 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9373FA0A3DEAC614857C9399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F554FBF1C62B9628094DDE70 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA25557F1C974C6C0079E59D = {
 			isa = PBXGroup;
 			children = (
 				FA25558A1C974C6C0079E59D /* FibTable */,
 				FA2555891C974C6C0079E59D /* Products */,
+				92124B1C4CE72719D0A2085A /* Pods */,
+				9373FA0A3DEAC614857C9399 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +87,10 @@
 			children = (
 				FA25558E1C974C6C0079E59D /* AppDelegate.h */,
 				FA25558F1C974C6C0079E59D /* AppDelegate.m */,
-				FA2555911C974C6C0079E59D /* ViewController.h */,
-				FA2555921C974C6C0079E59D /* ViewController.m */,
+				FA2555A81C97664A0079E59D /* FibTableViewController.h */,
+				FA2555A91C97664A0079E59D /* FibTableViewController.m */,
+				FA2555A51C974E400079E59D /* FibGenerator.h */,
+				FA2555A61C974E400079E59D /* FibGenerator.m */,
 				FA2555941C974C6C0079E59D /* Main.storyboard */,
 				FA2555971C974C6C0079E59D /* Assets.xcassets */,
 				FA2555991C974C6C0079E59D /* LaunchScreen.storyboard */,
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA25559F1C974C6C0079E59D /* Build configuration list for PBXNativeTarget "FibTable" */;
 			buildPhases = (
+				2E50FFB9C715A89E5CF8D7D4 /* Check Pods Manifest.lock */,
 				FA2555841C974C6C0079E59D /* Sources */,
 				FA2555851C974C6C0079E59D /* Frameworks */,
 				FA2555861C974C6C0079E59D /* Resources */,
+				E356E50D4D3BA165453F45A4 /* Embed Pods Frameworks */,
+				F82A879C28839C903EC94689 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +176,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E50FFB9C715A89E5CF8D7D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E356E50D4D3BA165453F45A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82A879C28839C903EC94689 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA2555841C974C6C0079E59D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2555931C974C6C0079E59D /* ViewController.m in Sources */,
 				FA2555901C974C6C0079E59D /* AppDelegate.m in Sources */,
+				FA2555A71C974E400079E59D /* FibGenerator.m in Sources */,
+				FA2555AA1C97664A0079E59D /* FibTableViewController.m in Sources */,
 				FA25558D1C974C6C0079E59D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +340,7 @@
 		};
 		FA2555A01C974C6C0079E59D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02991DD3D1AC6DFB15D2E60C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FibTable/Info.plist;
@@ -270,6 +352,7 @@
 		};
 		FA2555A11C974C6C0079E59D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9463E3B9C2A0A16AFCA6C49 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FibTable/Info.plist;
@@ -298,6 +381,7 @@
 				FA2555A11C974C6C0079E59D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
